@@ -8,14 +8,6 @@ currently the folders yet to be decompiled with uncompyle6/are unable to be are 
 
 pycparser/ply
 
-pydoc_data
-
-pymsl
-
-pywidevine
-
-requests
-
 setuptools
 
 soupsieve
