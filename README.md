@@ -4,4 +4,4 @@ a decompilation of NAP36 the widevine removal software for amz and nf used by p2
 
 
 
-the extracted "but still compiled" files from nap36.exe
+the extracted (but still compiled) files from nap36.exe
