@@ -1,0 +1,58 @@
+# uncompyle6 version 3.7.4
+# Python bytecode 3.6 (3379)
+# Decompiled from: Python 3.6.0 (v3.6.0:41df79263a11, Dec 23 2016, 08:06:12) [MSC v.1900 64 bit (AMD64)]
+# Embedded file name: email\__init__.py
+"""A package for parsing, handling, and generating email messages."""
+__all__ = [
+ 'base64mime',
+ 'charset',
+ 'encoders',
+ 'errors',
+ 'feedparser',
+ 'generator',
+ 'header',
+ 'iterators',
+ 'message',
+ 'message_from_file',
+ 'message_from_binary_file',
+ 'message_from_string',
+ 'message_from_bytes',
+ 'mime',
+ 'parser',
+ 'quoprimime',
+ 'utils']
+
+def message_from_string(s, *args, **kws):
+    """Parse a string into a Message object model.
+
+    Optional _class and strict are passed to the Parser constructor.
+    """
+    from email.parser import Parser
+    return Parser(*args, **kws).parsestr(s)
+
+
+def message_from_bytes(s, *args, **kws):
+    """Parse a bytes string into a Message object model.
+
+    Optional _class and strict are passed to the Parser constructor.
+    """
+    from email.parser import BytesParser
+    return BytesParser(*args, **kws).parsebytes(s)
+
+
+def message_from_file(fp, *args, **kws):
+    """Read a file and parse its contents into a Message object model.
+
+    Optional _class and strict are passed to the Parser constructor.
+    """
+    from email.parser import Parser
+    return Parser(*args, **kws).parse(fp)
+
+
+def message_from_binary_file(fp, *args, **kws):
+    """Read a binary file and parse its contents into a Message object model.
+
+    Optional _class and strict are passed to the Parser constructor.
+    """
+    from email.parser import BytesParser
+    return BytesParser(*args, **kws).parse(fp)
