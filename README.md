@@ -8,7 +8,25 @@ currently the folders yet to be decompiled with uncompyle6/are unable to be are 
 
 pycparser/ply
 
-setuptools
+setuptools\_vendor
+
+setuptools\cli-32
+
+setuptools\cli-64
+
+setuptools\command
+
+setuptools\extern
+
+setuptools\gui
+
+setuptools\gui-32
+
+setuptools\gui-64
+
+setuptools\script
+
+setuptools\script (dev)
 
 soupsieve
 
