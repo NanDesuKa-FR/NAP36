@@ -4,38 +4,4 @@ a decompilation of NAP36 the widevine removal software for amz and nf used by p2
 
 
 
-currently the folders yet to be decompiled with uncompyle6/are unable to be are these files will be uploaded as pyc files until ww ave the decompiled counterpart
-
-pycparser/ply
-
-setuptools\cli-32
-
-setuptools\cli-64
-
-setuptools\command\launcher manifest
-
-setuptools\gui
-
-setuptools\gui-32
-
-setuptools\gui-64
-
-setuptools\script
-
-setuptools\script (dev)
-
-soupsieve
-
-titlecase
-
-unittest
-
-urllib
-
-urllib3
-
-webencodings
-
-xml
-
-xmlrpc
+the extracted "but still compiled" files from nap36.exe
